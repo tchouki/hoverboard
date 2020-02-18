@@ -24,7 +24,7 @@
       font-color="{$ heroSettings.coc.fontColor $}"
       active="[[active]]"
     >
-      <div class="hero-title">{$ heroSettings.coc.title $}</div>
+      <div class="hero-title highlight-font">{$ heroSettings.coc.title $}</div>
       <p class="hero-description">{$ heroSettings.coc.description $}</p>
     </hero-block>
 
@@ -36,7 +36,7 @@
   <script>
 
     // eslint-disable-next-line no-undef
-    class CodPage extends Polymer.Element {
+    class CocPage extends Polymer.Element {
       static get is() {
         return 'coc-page';
       }
@@ -52,6 +52,6 @@
       }
     }
 
-    window.customElements.define(CodPage.is, CodPage);
+    window.customElements.define(CocPage.is, CocPage);
   </script>
 </dom-module>
