@@ -3,7 +3,7 @@
   "description": "Join the commuity, learn new things!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
+  "dates": "4 Novembre 2020",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Partager",
   "followOur": "Follow our",
@@ -11,7 +11,7 @@
   "emailUs": "Contact",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Call for Papers",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -52,7 +52,7 @@
         },
         {
           "name": "DevFest 2019",
-          "url": "https://devfest.gdgstrasbourg.fr",
+          "url": "https://devfest19.gdgstrasbourg.fr",
           "newTab": true
         }
       ]
@@ -99,12 +99,12 @@
       "featuredSessions": {
         "description": "Le DevFest, ou \"Developers Festival\", est une conférence technique destinées aux développeurs. Elle s'adresse aussi bien aux étudiants, aux professionnels ou tout simplement curieux, passionnés de technologies.",
         "label": "Voir comment c'était en 2019",
-        "link": "https://devfest.gdgstrasbourg.fr"
+        "link": "https://devfest19.gdgstrasbourg.fr"
       },
       "howItWas": {
         "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
         "label": "See how it was in 2016",
-        "link": "https://devfest.gdgstrasbourg.fr"
+        "link": "https://devfest19.gdgstrasbourg.fr"
       }
     },
     "statisticsBlock": {
@@ -117,7 +117,7 @@
         "number": "1"
       },
       "sessions": {
-        "label": "Séances",
+        "label": "Séssions",
         "number": "X"
       },
       "tracks": {
@@ -182,11 +182,11 @@
     }
   },
   "galleryBlock": {
-    "title": "Devfest highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "Les temps forts du Devfest",
+    "description": "Le festival de cette année a suscité beaucoup d'enthousiasme. Découvrez les photos des conférences, des séances d'apprentissage pratique et des activités organisées en dehors des heures de bureau.",
     "callToAction": {
       "label": "Voir toutes les photos",
-      "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
+      "link": "https://photos.app.goo.gl/Cm4PTUr9NFpYdDnC9"
     }
   },
   "mapBlock": {
@@ -194,7 +194,7 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
+      "description": "Soyez informé des mises à jour importantes de la conférence",
       "label": "Subscribe"
     },
     "yourEmail": "Votre adresse électronique",
