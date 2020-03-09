@@ -1,6 +1,6 @@
 {
-  "title": "GDG DevFest Season 2020",
-  "description": "Join the commuity, learn new things!",
+  "title": "DevFest Strasbourg 2020",
+  "description": "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "3 Novembre 2020",
@@ -113,7 +113,7 @@
         "number": "300"
       },
       "days": {
-        "label": "Jour",
+        "label": "Journée",
         "number": "1"
       },
       "sessions": {

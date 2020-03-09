@@ -1,7 +1,7 @@
 {
   "basepath": "/",
   "url": "http://localhost:3000/",
-  "analytics": "UA-43643469-8",
+  "analytics": "UA-141199107-1",
   "prefix": "/",
   "firebase": {
     "appId": "1:1083195713896:web:9aed8296d8d642cb",
