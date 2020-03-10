@@ -3,8 +3,8 @@
   "short_name": "{$ webapp.shortName $}",
   "start_url": "./?utm_source=web_app_manifest",
   "display": "standalone",
-  "background_color": "{$ webapp.backgroundColor $}",
-  "theme_color": "{$ webapp.themeColor $}",
+  "background_color": "#048c4c",
+  "theme_color": "#048c4c",
   "icons": [
     {
       "src": "images/manifest/icon-48.png",
