@@ -9,8 +9,8 @@
   "endDate": "2020-10-6T19:00:00+03:00",
   "webapp": {
     "shortName": "DevFest",
-    "themeColor": "#673AB7",
-    "backgroundColor": "#673AB7"
+    "themeColor": "#048c4c",
+    "backgroundColor": "#048c4c"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -21,12 +21,17 @@
     {
       "route": "home",
       "permalink": "/",
-      "label": "Home"
+      "label": "Accueil"
     },
     {
       "route": "coc",
       "permalink": "/coc",
-      "label": "Code Of Conduct"
+      "label": "Code De Conduite"
+    },
+    {
+      "route": "team",
+      "permalink": "/team",
+      "label": "L'Equipe"
     }
   ],
   "heroSettings": {
@@ -72,7 +77,7 @@
       "fontColor": "#424242"
     },
     "team": {
-      "title": "Team",
+      "title": "L'Equipe",
       "metaDescription": "Get more info about organizers",
       "background": {
         "color": "#fff"
@@ -163,7 +168,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "contact@gdgstrasbourg.fr",
   "signInProviders": {
     "providersData": [
       {
