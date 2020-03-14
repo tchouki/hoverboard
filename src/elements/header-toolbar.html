@@ -151,15 +151,19 @@
 
         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
 
-        <a href="https://drive.google.com/drive/folders/1FaDFCZhvcaoD_tE6zKpV-afadBi8JXJ1?usp=sharing" target="_blank" rel="noopener noreferrer" ga-on="click"
-           ga-event-category="ticket button" ga-event-action="buy_click">
+        <a href="https://drive.google.com/drive/folders/1MhLbCGGKY4KfskhgqUfSPR1tQNDw7yOz?usp=sharing" target="_blank" rel="noopener noreferrer" ga-on="click"
+           ga-event-category="partner button" ga-event-action="partner_click">
           <paper-button class="buy-button" primary>Devenir partenaire</paper-button>
         </a>
 
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
+        <a href="https://conference-hall.io/public/event/ONmsPlwbLHHBTtFGkZpJ" target="_blank" rel="noopener noreferrer" ga-on="click"
+           ga-event-category="cfp button" ga-event-action="cfp_click">
+          <paper-button class="buy-button" primary>Call For Papers</paper-button>
+        </a>
+        <!-- <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
-        </a>
+        </a> -->
       </paper-tabs>
 
       <paper-menu-button
