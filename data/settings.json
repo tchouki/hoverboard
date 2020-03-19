@@ -24,14 +24,19 @@
       "label": "Accueil"
     },
     {
-      "route": "coc",
-      "permalink": "/coc",
-      "label": "Code De Conduite"
-    },
-    {
       "route": "team",
       "permalink": "/team",
       "label": "L'Equipe"
+    },
+    {
+      "route": "sustainability",
+      "permalink": "/sustainability",
+      "label": "Environnement"
+    },
+    {
+      "route": "coc",
+      "permalink": "/coc",
+      "label": "Code De Conduite"
     }
   ],
   "heroSettings": {
@@ -99,6 +104,16 @@
         "color": "#fff"
       },
       "fontColor": "#424242"
+    },
+    "sustainability": {
+      "title": "Environnement",
+      "title_ui": "Construire un événement plus durable",
+      "metaDescription": "Discover of we are reducing our environement impact",
+      "background": {
+        "image": "images/backgrounds/sustain.jpg",
+        "color": "#1b5e20"
+      },
+      "fontColor": "#ffffff"
     }
   },
   "location": {
