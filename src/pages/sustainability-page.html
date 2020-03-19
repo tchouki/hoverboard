@@ -1,0 +1,65 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../elements/polymer-helmet.html">
+<link rel="import" href="../elements/hero-block.html">
+<link rel="import" href="../elements/footer-block.html">
+<link rel="import" href="../elements/shared-styles.html">
+
+<dom-module id="sustainability-page">
+  <template>
+    <style include="shared-styles flex flex-alignment">
+      :host {
+        display: block;
+      }
+
+    </style>
+
+    <polymer-helmet
+      title="{$ heroSettings.sustainability.title $} | {$ title $}"
+      description="{$ heroSettings.sustainability.metaDescription $}"
+      active="[[active]]"
+    ></polymer-helmet>
+
+    <hero-block
+      background-image="{$ heroSettings.sustainability.background.image $}"
+      background-color="{$ heroSettings.sustainability.background.color $}"
+      font-color="{$ heroSettings.sustainability.fontColor $}"
+      active="[[active]]"
+    >
+      <div class="hero-title highlight-font">{$ heroSettings.sustainability.title_ui $}</div>
+      <p class="hero-description">{$ heroSettings.sustainability.description $}</p>
+    </hero-block>
+
+    <div class="container">
+      <p>
+        Les grands événements tels que les Devfest génèrent généralement une importante empreinte carbone. Nous sommes cependant convaincu que ces événements sont essentiels pour la communauté de développeurs et qu’ils peuvent contribuer à long terme à l’écologie.
+        <br>
+        En 2019, nous avions déjà mis en oeuvre un certains nombre de mesures pour réduire cette empreinte, cette année, nous avons pris des mesures fortes pour progressivement réduire notre bilan carbone.
+      </p>
+    </div>
+    <!-- <md-content md-source="[[source]]"></md-content> -->
+
+    <footer-block></footer-block>
+  </template>
+
+  <script>
+
+    // eslint-disable-next-line no-undef
+    class sustainabilityPage extends Polymer.Element {
+      static get is() {
+        return 'sustainability-page';
+      }
+
+      static get properties() {
+        return {
+          active: Boolean,
+          source: {
+            type: String,
+            value: '{$ sustainability $}',
+          },
+        };
+      }
+    }
+
+    window.customElements.define(sustainabilityPage.is, sustainabilityPage);
+  </script>
+</dom-module>
