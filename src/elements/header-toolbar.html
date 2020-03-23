@@ -149,7 +149,7 @@
         </paper-tab>
         {% endfor %}
 
-        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+        <!-- <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab> -->
 
         <a href="https://drive.google.com/drive/folders/1MhLbCGGKY4KfskhgqUfSPR1tQNDw7yOz?usp=sharing" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="partner button" ga-event-action="partner_click">
@@ -202,7 +202,7 @@
         </div>
       </paper-menu-button>
 
-      <paper-menu-button
+<!--       <paper-menu-button
         class="auth-menu"
         hidden$="[[!user.signedIn]]"
         vertical-align="top"
@@ -230,7 +230,7 @@
         icon="hoverboard:account"
         on-tap="signIn"
         hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"
-      ></paper-icon-button>
+      ></paper-icon-button> -->
     </app-toolbar>
 
   </template>
