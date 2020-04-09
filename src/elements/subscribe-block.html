@@ -63,41 +63,7 @@
 
     <div class="container" layout vertical center$="[[viewport.isTabletPlus]]">
       <div class="description"> {$ subscribeBlock.callToAction.description $}</div>
-      <div layout horizontal center>
-        <paper-input id="firstFieldInput"
-                     on-touchend="_focus"
-                     label="Prénom"
-                     value="{{firstFieldValue}}"
-                     autocomplete="off"
-                     autofocus="false">
-        </paper-input>
-        <paper-input id="secondFieldInput"
-                     on-touchend="_focus"
-                     label="Nom"
-                     value="{{secondFieldValue}}"
-                     autocomplete="off"
-                     autofocus="false">
-        </paper-input>
-        <paper-input id="emailInput"
-                     on-touchend="_focus"
-                     label="Adresse email *"
-                     value="{{email}}"
-                     required auto-validate$="[[validate]]" error-message="{$ subscribeBlock.emailRequired $}"
-                     autocomplete="off"
-                     autofocus="false">
-        </paper-input>
-      </div>
-      <div class="action-buttons" layout horizontal justified>
-        <paper-button
-          class="sub-button"
-          on-tap="_subscribe"
-          ga-on="click"
-          ga-event-category="attendees"
-          ga-event-action="subscribe"
-          ga-event-label="subscribe block"
-          primary>S'inscrire
-        </paper-button>
-      </div>
+      <iframe width="540" height="305" src="https://304c9294.sibforms.com/serve/MUIEAOExW91fjFVO2iLIZKmog3hfeVkUckYpkXPhZ5J1jyDaeLlZLLNNYJjtgCgLjXYXe_2bDVZV-PbD9tB5gN4APCVetGLdjIl0sXoDCQ6W1j2atO8dinJVptNq14VevQmnqbCAvIGlunlZMQxjeF0O88XRl-ZP4XCF6SqHaVkQJQ1i8MeNoX1Rz6XKRji6-iuKH35XkYsnsuMa" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
     </div>
 
   </template>
