@@ -83,15 +83,6 @@
       static get is() {
         return 'cancel-block';
       }
-
-      _playVideo() {
-        uiActions.toggleVideoDialog({
-          title: '{$  aboutBlock.callToAction.howItWas.title $}',
-          youtubeId: '{$  aboutBlock.callToAction.howItWas.youtubeId $}',
-          disableControls: true,
-          opened: true,
-        });
-      }
     }
 
     window.customElements.define(CancelBlock.is, CancelBlock);
