@@ -1,9 +1,9 @@
 {
-  "title": "DevFest Strasbourg 2020",
+  "title": "DevFest Strasbourg 2021",
   "description": "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "3 Novembre 2020",
+  "dates": "3 Novembre 2021",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Partager",
   "followOur": "Follow our",
@@ -211,7 +211,7 @@
     "toast": "Inscription réussie !"
   },
   "team": {
-    "description": "Découvrez l'équipe d'aventuriers qui oeuvre chaque jour pour donner vie au Devfest Strasbourg 2020 #Jungle."
+    "description": "Découvrez l'équipe d'aventuriers qui oeuvre chaque jour pour donner vie au Devfest Strasbourg 2021 #Jungle."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -244,7 +244,7 @@
     "blocks": [
       {
         "title": "Pourquoi un Devfest ?",
-        "description": "Le DevFest Strasbourg 2020 sera la deuxième édition strasbourgeoise d’un événement qui rassemble des milliers de développeurs et de passionnés dans le monde entier chaque année pour penser les technologies de demain. Le Devfest est LE lieu unique pour partager et échanger autour de nombreux sujets tels que Web, Cloud, Mobile, objets connectés et  bien plus encore.",
+        "description": "Le DevFest Strasbourg 2021 sera la deuxième édition strasbourgeoise d’un événement qui rassemble des milliers de développeurs et de passionnés dans le monde entier chaque année pour penser les technologies de demain. Le Devfest est LE lieu unique pour partager et échanger autour de nombreux sujets tels que Web, Cloud, Mobile, objets connectés et  bien plus encore.",
         "callToAction": {
           "label": "Revivre 2019",
           "link": "https://devfest19.gdgstrasbourg.fr",
@@ -253,7 +253,7 @@
       },
       {
         "title": "Organisateur",
-        "description": "Le Devfest 2020 est organisé par l'équipe du <a href='http://gdgstrasbourg.fr' target='_blank'>GDG Strasbourg</a>, fière d'organiser le deuxième DevFest Strasbourgeois !",
+        "description": "Le Devfest 2021 est organisé par l'équipe du <a href='http://gdgstrasbourg.fr' target='_blank'>GDG Strasbourg</a>, fière d'organiser le deuxième DevFest Strasbourgeois !",
         "callToAction": {
           "label": "Découvrir l'équipe",
           "link": "/team"
