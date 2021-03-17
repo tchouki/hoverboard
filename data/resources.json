@@ -57,6 +57,31 @@
           "newTab": true
         }
       ]
+    },
+    {
+      "title": "Ressources",
+      "links": [
+        {
+          "name": "Devenir Partenaire",
+          "url": "https://drive.google.com/drive/folders/1MhLbCGGKY4KfskhgqUfSPR1tQNDw7yOz?usp=sharing",
+          "newTab": true
+        },
+        {
+          "name": "Media Kit",
+          "url": "https://drive.google.com/drive/folders/1pzBql8ox-ns-OCV_lZMQEoI9JO-BOpL8?usp=sharing",
+          "newTab": true
+        },
+        {
+          "name": "Call for Papers",
+          "url": "https://conference-hall.io/public/event/ONmsPlwbLHHBTtFGkZpJ",
+          "newTab": true
+        },
+        {
+          "name": "Code of Conduct",
+          "url": "/coc",
+          "newTab": false
+        }
+      ]
     }
   ],
   "subscribeNote": "Pas de spam, juste les dernières nouvelles!",
@@ -170,7 +195,7 @@
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Par contre, on a plein de surprises qui arrivent 😎",
+      "description": "Ne ratez pas l'ouverture de la billetterie !",
       "label": "Subscribe"
     },
     "yourEmail": "Votre adresse électronique",
