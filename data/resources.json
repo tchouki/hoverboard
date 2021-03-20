@@ -95,7 +95,7 @@
     ]
   },
   "aboutBlock": {
-    "title": "Le DevFest Strasbourg, c'est quoi ?",
+    "title": "Le Devfest Strasbourg, c'est quoi ?",
     "callToAction": {
       "featuredSessions": {
         "description": "Le DevFest, ou \"Developers Festival\", est une conférence technique destinée aux développeurs. Elle s'adresse aux étudiants, aux professionnels ou tout simplement curieux, passionnés de technologies.",
@@ -111,7 +111,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Participants",
-        "number": "350"
+        "number": "+350"
       },
       "days": {
         "label": "Journée",
