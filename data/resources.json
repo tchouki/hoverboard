@@ -127,6 +127,10 @@
       }
     }
   },
+  "aboutBlock2": {
+    "title": "#QuoiQuilArrive, vraiment ?",
+    "text": "Toute l'équipe travaille d'arrache pied pour que l'édition 2021 ait lieu, quoi qu'il arrive. Nous travaillons avec la ville et les autorités sanitaire pour proposer un événement qui réponde à toutes les exigences sanitaires en vigueur. Toutefois, si la tenue d'un événement en présentiel devait s'avérer impossible, nous travaillons également à une édition en ligne totalement disruptive."
+  },
   "ticketsBlock": {
     "title": "Tickets",
     "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
