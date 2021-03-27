@@ -1,16 +1,17 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
+  "url": "https://devfest.gdgstrasbourg.fr/",
   "analytics": "UA-141199107-1",
   "prefix": "/",
   "firebase": {
-    "appId": "1:516409946568:web:ad5a56d452fc421c",
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "appId": "1:1083195713896:web:9aed8296d8d642cb",
+    "apiKey": "AIzaSyD9Mn_cM6obgLrPFCbFseJ9QhnYfMDwbL8",
+    "authDomain": "devfest-strasbourg-2020.firebaseapp.com",
+    "databaseURL": "https://devfest-strasbourg-2020.firebaseio.com",
+    "projectId": "devfest-strasbourg-2020",
+    "storageBucket": "devfest-strasbourg-2020.appspot.com",
+    "messagingSenderId": "644909289394"
   },
-  "googleMapApiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8"
+  "googleMapApiKey": "AIzaSyCdRPjaeAFduorwu0XyFdefdHZRyAob-CM"
 }
+
