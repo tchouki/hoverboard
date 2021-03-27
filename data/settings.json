@@ -24,19 +24,20 @@
       "label": "Accueil"
     },
     {
-      "route": "coc",
-      "permalink": "/coc",
-      "label": "Code De Conduite"
-    },
-    {
       "route": "team",
       "permalink": "/team",
       "label": "L'Equipe"
+    },
+    {
+      "route": "coc",
+      "permalink": "/coc",
+      "label": "Code De Conduite"
     }
   ],
   "heroSettings": {
     "home": {
       "description": "Campus CCI Strasbourg",
+      "covidMessage": "Quoi qu'il arrive, en présentiel ou en ligne",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -99,6 +100,16 @@
         "color": "#fff"
       },
       "fontColor": "#424242"
+    },
+    "sustainability": {
+      "title": "Environnement",
+      "title_ui": "Construire un événement plus durable",
+      "metaDescription": "Discover of we are reducing our environement impact",
+      "background": {
+        "image": "images/backgrounds/sustain.jpg",
+        "color": "#1b5e20"
+      },
+      "fontColor": "#ffffff"
     }
   },
   "location": {

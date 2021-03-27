@@ -1,0 +1,185 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../elements/polymer-helmet.html">
+<link rel="import" href="../elements/hero-block.html">
+<link rel="import" href="../elements/footer-block.html">
+<link rel="import" href="../elements/shared-styles.html">
+
+<dom-module id="sustainability-page">
+  <template>
+    <style include="shared-styles flex flex-alignment flex-reverse">
+      :host {
+        display: block;
+      }
+
+      .container {
+        padding-top: 64px;
+      }
+
+      .content {
+        display: grid;
+        grid-gap: 32px;
+        grid-template-columns: 1fr;
+      }
+
+      .statistics-block {
+        width: 100%;
+        display: grid;
+        grid-gap: 32px 16px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .numbers {
+        font-size: 40px;
+      }
+
+      .numbers::after {
+        content: "";
+        display: block;
+        height: 2px;
+        width: 64px;
+        background-color: var(--default-primary-color);
+      }
+
+      .label {
+        margin-top: 4px;
+      }
+
+      @media (min-width: 640px) {
+        .content {
+          grid-gap: 64px;
+          grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        }
+
+        .statistics-block {
+          grid-gap: 32px;
+        }
+
+        .numbers {
+          font-size: 56px;
+        }
+      }
+    </style>
+
+    <polymer-helmet
+      title="{$ heroSettings.sustainability.title $} | {$ title $}"
+      description="{$ heroSettings.sustainability.metaDescription $}"
+      active="[[active]]"
+    ></polymer-helmet>
+
+    <hero-block
+      background-image="{$ heroSettings.sustainability.background.image $}"
+      background-color="{$ heroSettings.sustainability.background.color $}"
+      font-color="{$ heroSettings.sustainability.fontColor $}"
+      active="[[active]]"
+    >
+      <div class="hero-title highlight-font">{$ heroSettings.sustainability.title_ui $}</div>
+      <p class="hero-description">{$ heroSettings.sustainability.description $}</p>
+    </hero-block>
+
+    <div class="container">
+      <p>
+        Les grands événements tels que les Devfest génèrent généralement une importante empreinte carbone. Nous sommes cependant convaincu que ces événements sont essentiels pour la communauté de développeurs et qu’ils peuvent contribuer à long terme à l’écologie.
+        <br>
+        En 2019, nous avions déjà mis en oeuvre un certains nombre de mesures pour réduire cette empreinte, cette année, nous avons pris des mesures fortes pour progressivement réduire notre bilan carbone.
+      </p>
+      <br><br><br>
+      <div class="content">
+        <div style="text-align: justify;">
+          <h1>Votre Choix</h1>
+          <p>
+            Vous décidez si vous souhaitez ou non recevoir des goodies. Bien que depuis toujours nous limitons nos goodies au strict nécessaire, il suffit de cocher la case “Je ne souhaite pas recevoir de goodies” lors de l’achat de votre billet pour n’en recevoir aucun. Notre équipe prendra soin de commander le bon nombre de goodies en amont.
+          </p>
+        </div>
+        <div class="statistics-block">
+          <img style="width: 100%;" src="images/sustainability/choice.png">
+        </div>
+      </div>
+
+      <div class="content">
+        <div style="text-align: justify;">
+          <h1>Goodies de qualité</h1>
+          <p>
+            Si vous décidez de recevoir des goodies, soyez assuré que nous faisons notre maximum pour produire nos goodies dans les meilleures conditions : made in France par des acteurs locaux.
+          </p>
+        </div>
+        <div class="statistics-block">
+          <img style="width: 100%;" src="images/sustainability/quality.png">
+        </div>
+      </div>
+
+       <div class="content">
+        <div style="text-align: justify;">
+          <h1>Gobelets réutilisables</h1>
+          <p>
+            Comme en 2019, nous proposerons cette année des gobelets réutilisables tout au long de la journée. Adieu gobelets en plastiques.
+          </p>
+        </div>
+        <div class="statistics-block">
+          <img style="width: 100%;" src="images/sustainability/drink.png">
+        </div>
+      </div>
+
+       <div class="content">
+        <div style="text-align: justify;">
+          <h1>Au Devfest à Vélo</h1>
+          <p>
+            Parce que Strasbourg ne serait pas Strasbourg sans ses vélos, nous avons bien évidemment prévu de quoi accueillir tous les vélos de nos participants. Une centaine d’arceaux à vélo seront à votre disposition pour venir avec votre bicyclette favorite, notre équipe la gardera en sécurité pour vous.
+          </p>
+        </div>
+        <div class="statistics-block">
+          <img style="width: 100%;" src="images/sustainability/bike.png">
+        </div>
+      </div>
+
+       <div class="content">
+        <div style="text-align: justify;">
+          <h1>Le Tram, (GRATUIT)</h1>
+          <p>
+            Le Devfest est accessible très facilement en tram depuis le centre ville. Avec la ligne A ou E, arrêt Emile Mathis. Cette année, nous payons votre trajet en tram.
+          </p>
+        </div>
+        <div class="statistics-block">
+          <img style="width: 100%;" src="images/sustainability/transport.png">
+        </div>
+      </div>
+
+       <div class="content">
+        <div style="text-align: justify;">
+          <h1>Slow food, Bio food</h1>
+          <p>
+            Notre traiteur s’occupe de préparer de délicieux repas à l’aide de produits locaux et bios !
+          </p>
+        </div>
+        <div class="statistics-block">
+          <img style="width: 100%;" src="images/sustainability/food.png">
+        </div>
+      </div>
+
+    </div>
+    <!-- <md-content md-source="[[source]]"></md-content> -->
+
+    <footer-block></footer-block>
+  </template>
+
+  <script>
+
+    // eslint-disable-next-line no-undef
+    class sustainabilityPage extends Polymer.Element {
+      static get is() {
+        return 'sustainability-page';
+      }
+
+      static get properties() {
+        return {
+          active: Boolean,
+          source: {
+            type: String,
+            value: '{$ sustainability $}',
+          },
+        };
+      }
+    }
+
+    window.customElements.define(sustainabilityPage.is, sustainabilityPage);
+  </script>
+</dom-module>
