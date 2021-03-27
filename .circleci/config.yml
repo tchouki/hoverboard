@@ -38,6 +38,8 @@ jobs:
           at: ./
       - run:
           name: Deploy
+          environment:
+            BUILD_ENV: production
           command: ./node_modules/.bin/firebase deploy --only hosting --project devfest-strasbourg-2020 --token "$FIREBASE_TOKEN"
 
 workflows:
