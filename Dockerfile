@@ -1,4 +1,4 @@
-FROM node
+FROM node:10-stretch
 
 ADD . /app
 RUN chown -R node:node /app

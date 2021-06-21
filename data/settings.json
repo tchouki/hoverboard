@@ -42,6 +42,7 @@
   "heroSettings": {
     "home": {
       "description": "Campus CCI Strasbourg",
+      "covidMessage": "Quoi qu'il arrive, en présentiel ou en ligne",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"

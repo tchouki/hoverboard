@@ -1,10 +1,10 @@
 {
-  "title": "DevFest Strasbourg 2020",
+  "title": "DevFest Strasbourg 2021",
   "description": "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "3 Novembre 2020",
-  "partnershipProposition": "https://bit.ly/dfua17-partners",
+  "dates": "9 Novembre 2021",
+  "partnershipProposition": "https://drive.google.com/drive/folders/11Pde_gmGZFvYp5eK-3VTfOnro-SewK43",
   "share": "Partager",
   "followOur": "Follow our",
   "followUs": "Follow us",
@@ -62,13 +62,13 @@
       "title": "Ressources",
       "links": [
         {
-          "name": "Devenir Partenaire",
-          "url": "https://drive.google.com/drive/folders/1MhLbCGGKY4KfskhgqUfSPR1tQNDw7yOz?usp=sharing",
+          "name": "Devenir Sponsor",
+          "url": "https://drive.google.com/drive/folders/11Pde_gmGZFvYp5eK-3VTfOnro-SewK43",
           "newTab": true
         },
         {
           "name": "Media Kit",
-          "url": "https://drive.google.com/drive/folders/1pzBql8ox-ns-OCV_lZMQEoI9JO-BOpL8?usp=sharing",
+          "url": "https://drive.google.com/drive/folders/17lK5Y7uzlbzfVXzFIC5uZAYE9rlq_smp",
           "newTab": true
         },
         {
@@ -95,7 +95,7 @@
     ]
   },
   "aboutBlock": {
-    "title": "Le DevFest Strasbourg, c'est quoi ?",
+    "title": "Le Devfest Strasbourg, c'est quoi ?",
     "callToAction": {
       "featuredSessions": {
         "description": "Le DevFest, ou \"Developers Festival\", est une conférence technique destinée aux développeurs. Elle s'adresse aux étudiants, aux professionnels ou tout simplement curieux, passionnés de technologies.",
@@ -111,7 +111,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Participants",
-        "number": "350"
+        "number": "+300"
       },
       "days": {
         "label": "Journée",
@@ -119,13 +119,17 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "+35"
+        "number": "+25"
       },
       "tracks": {
         "label": "Scènes",
-        "number": "4"
+        "number": "3"
       }
     }
+  },
+  "aboutBlock2": {
+    "title": "#QuoiQuilArrive, vraiment ?",
+    "text": "Toute l'équipe travaille d'arrache pied pour que l'édition 2021 ait lieu, quoi qu'il arrive. Nous travaillons avec la ville et les autorités sanitaire pour proposer un événement qui réponde à toutes les exigences sanitaires en vigueur. Toutefois, si la tenue d'un événement en présentiel devait s'avérer impossible, nous travaillons également à une édition en ligne totalement disruptive."
   },
   "ticketsBlock": {
     "title": "Tickets",
@@ -191,7 +195,7 @@
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Le lieu"
   },
   "subscribeBlock": {
     "callToAction": {
@@ -211,7 +215,7 @@
     "toast": "Inscription réussie !"
   },
   "team": {
-    "description": "Découvrez l'équipe d'aventuriers qui oeuvre chaque jour pour donner vie au Devfest Strasbourg 2020 #Jungle."
+    "description": "Découvrez l'équipe d'aventuriers qui oeuvre chaque jour pour donner vie au Devfest Strasbourg 2021 #Jungle."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -244,7 +248,7 @@
     "blocks": [
       {
         "title": "Pourquoi un Devfest ?",
-        "description": "Le DevFest Strasbourg 2020 sera la deuxième édition strasbourgeoise d’un événement qui rassemble des milliers de développeurs et de passionnés dans le monde entier chaque année pour penser les technologies de demain. Le Devfest est LE lieu unique pour partager et échanger autour de nombreux sujets tels que Web, Cloud, Mobile, objets connectés et  bien plus encore.",
+        "description": "Le DevFest Strasbourg 2021 sera la deuxième édition strasbourgeoise d’un événement qui rassemble des milliers de développeurs et de passionnés dans le monde entier chaque année pour penser les technologies de demain. Le Devfest est LE lieu unique pour partager et échanger autour de nombreux sujets tels que Web, Cloud, Mobile, objets connectés et  bien plus encore.",
         "callToAction": {
           "label": "Revivre 2019",
           "link": "https://devfest19.gdgstrasbourg.fr",
@@ -253,7 +257,7 @@
       },
       {
         "title": "Organisateur",
-        "description": "Le Devfest 2020 est organisé par l'équipe du <a href='http://gdgstrasbourg.fr' target='_blank'>GDG Strasbourg</a>, fière d'organiser le deuxième DevFest Strasbourgeois !",
+        "description": "Le Devfest 2021 est organisé par l'équipe du <a href='http://gdgstrasbourg.fr' target='_blank'>GDG Strasbourg</a>, fière d'organiser le deuxième DevFest Strasbourgeois !",
         "callToAction": {
           "label": "Découvrir l'équipe",
           "link": "/team"

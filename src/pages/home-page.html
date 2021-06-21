@@ -140,13 +140,14 @@
       hide-logo
     >
       <div class="home-content" layout vertical center>
-        <plastic-image class="hero-logo" srcset="/images/logos/logo_tigre.svg" alt="{$ title $}"></plastic-image>
+        <plastic-image class="hero-logo" srcset="/images/logos/logo_tigre_date_2021.png" alt="{$ title $}"></plastic-image>
         <div class="info-items">
           <div class="info-item">{$ dates $}.</div>
           <div class="info-item">{$ heroSettings.home.description $}</div>
+          <div class="info-item">{$ heroSettings.home.covidMessage $}</div>
         </div>
 
-        <div class="action-buttons" layout horizontal center-justified wrap>
+      <div class="action-buttons" layout horizontal center-justified wrap>
           <a href="https://conference-hall.io/public/event/ONmsPlwbLHHBTtFGkZpJ" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="cfp button" ga-event-action="cfp_click">
           <paper-button
@@ -178,7 +179,7 @@
     <gallery-block></gallery-block>
     <about-organizer-block></about-organizer-block>
     <map-block></map-block>
-    <!-- <partners-block></partners-block> -->
+   <!--  <partners-block></partners-block> -->
     <footer-block></footer-block>
   </template>
 
