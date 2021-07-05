@@ -47,12 +47,12 @@
           "newTab": true
         },
         {
-          "name": "Meet the Team",
+          "name": "Rencontrez l'équipe",
           "url": "/team",
           "newTab": false
         },
         {
-          "name": "DevFest 2019",
+          "name": "Devfest 2019",
           "url": "https://devfest19.gdgstrasbourg.fr",
           "newTab": true
         }
@@ -72,14 +72,14 @@
           "newTab": true
         },
         {
-          "name": "Call for Papers",
-          "url": "https://conference-hall.io/public/event/ONmsPlwbLHHBTtFGkZpJ",
-          "newTab": true
-        },
-        {
-          "name": "Code of Conduct",
+          "name": "Code de Conduite",
           "url": "/coc",
           "newTab": false
+        },
+        {
+          "name": "Presse : Demande d'accréditation",
+          "url": "https://forms.gle/t1qk6LV7qB2xpQiU7",
+          "newTab": true
         }
       ]
     }
